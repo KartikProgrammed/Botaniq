@@ -1,8 +1,11 @@
+import os
 import requests
 import json
 from pprint import pprint
 
-API_KEY = "2b10IJgKBOvfn6a5bVykpDyxe"  # Replace with your API key
+API_KEY = os.getenv("PLANTNET_API_KEY")
+if not API_KEY:
+    raise ValueError("API Key not found. Set PLANTNET_API_KEY as an environment variable.")
 PROJECT = "all"  # Try specific floras: "weurope", "canada"...
 API_ENDPOINT = f"https://my-api.plantnet.org/v2/identify/{PROJECT}?api-key={API_KEY}"
 
