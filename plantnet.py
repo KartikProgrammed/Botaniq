@@ -35,7 +35,6 @@ try:
     
     best_match = json_result.get('bestMatch', 'Unknown')
     print(f"Identified Flower: {best_match}")
-    
     pprint(response.status_code)
     #pprint(json_result)
     
