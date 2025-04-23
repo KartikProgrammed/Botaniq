@@ -15,7 +15,11 @@ def webhook():
     parameters = req["queryResult"].get("parameters", {})
 
     if intent == "PlantCareIntent":
-        plant = parameters.get("plant", "your plant")
+        plant_list = parameters.get("plant")
+        if plant_list and isinstance(plant_list, list) and plant_list:
+            plant = plant_list[0]
+        else:
+            plant = "your plant"  # Default value if 'plant' is missing or empty
         plant_lower = plant.lower()
 
         try:
