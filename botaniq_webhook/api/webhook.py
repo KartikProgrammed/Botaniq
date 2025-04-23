@@ -34,14 +34,114 @@ def webhook():
                 care_info = plant_care_data[plant_lower]
                 response_text = f"Here's some care advice for your {plant}:\n"
                 for key, value in care_info.items():
-                    if key != "vastu":
+                    if key == "light" or key == "water" or key == "soil":
                         response_text += f"- {key.capitalize()}: {value}\n"
+                # if "vastu" in care_info:
+                #     response_text += f"\nRegarding Vastu, for a {plant}: {care_info['vastu']}"
+                # else:
+                #     response_text += "\nAccording to Vastu principles, the placement and care of plants can influence the energy in your home. You might want to research specific Vastu guidelines for optimal placement of your plant."
+            else:
+                response_text = f"Sorry, I don't have specific care information for {plant} right now. General care usually involves providing appropriate light and watering when the topsoil is dry. You might also want to research Vastu principles related to this plant."
+
+        except FileNotFoundError:
+            response_text = f"Error: Plant care data file not found at path: {file_path}"
+        except json.JSONDecodeError:
+            response_text = "Error: Could not decode plant care data."
+        except Exception as e:
+            response_text = f"An unexpected error occurred: {e}"
+
+
+    elif intent=="vastuShastra":
+        plant_list = parameters.get("plant")
+        if plant_list and isinstance(plant_list, list) and plant_list:
+            plant = plant_list[0]
+        else:
+            plant = "your plant"  # Default value if 'plant' is missing or empty
+        plant_lower = plant.lower()
+
+        try:
+            # Construct the path relative to the script's directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            file_path = os.path.join(script_dir, "plant_data.json")
+
+            with open(file_path, "r") as f:
+                plant_care_data = json.load(f)
+
+            if plant_lower in plant_care_data:
+                care_info = plant_care_data[plant_lower]
+                response_text = f"Here's some care advice for your {plant}:\n"
                 if "vastu" in care_info:
                     response_text += f"\nRegarding Vastu, for a {plant}: {care_info['vastu']}"
                 else:
                     response_text += "\nAccording to Vastu principles, the placement and care of plants can influence the energy in your home. You might want to research specific Vastu guidelines for optimal placement of your plant."
             else:
-                response_text = f"Sorry, I don't have specific care information for {plant} right now. General care usually involves providing appropriate light and watering when the topsoil is dry. You might also want to research Vastu principles related to this plant."
+                response_text = f"Sorry, I don't have vastu specific care information for {plant} right now. I'm still learning and I'll get back to you soon."
+
+        except FileNotFoundError:
+            response_text = f"Error: Plant care data file not found at path: {file_path}"
+        except json.JSONDecodeError:
+            response_text = "Error: Could not decode plant care data."
+        except Exception as e:
+            response_text = f"An unexpected error occurred: {e}"
+    
+    elif intent=="fertilizerNeeds":
+        plant_list = parameters.get("plant")
+        if plant_list and isinstance(plant_list, list) and plant_list:
+            plant = plant_list[0]
+        else:
+            plant = "your plant"  # Default value if 'plant' is missing or empty
+        plant_lower = plant.lower()
+
+        try:
+            # Construct the path relative to the script's directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            file_path = os.path.join(script_dir, "plant_data.json")
+
+            with open(file_path, "r") as f:
+                plant_care_data = json.load(f)
+
+            if plant_lower in plant_care_data:
+                care_info = plant_care_data[plant_lower]
+                response_text = f"Here's some care advice for your {plant}:\n"
+                if "fertilizer" in care_info:
+                    response_text += f"\nRegarding fertilizer, for a {plant}: {care_info['fertilizer']}"
+                else:
+                    response_text += "General fertilizer advice: Most plants benefit from fertilization during their growing season (usually spring and summer). A balanced liquid fertilizer diluted to half strength applied every 2-4 weeks is often a good starting point. However, specific needs vary greatly between plant types. To get the best advice for your {plant}, I recommend researching its specific fertilizer requirements."
+            else:
+                response_text = f"Sorry, I don't have fertilizer care information for {plant} right now. I'm still learning and I'll get back to you soon."
+
+        except FileNotFoundError:
+            response_text = f"Error: Plant care data file not found at path: {file_path}"
+        except json.JSONDecodeError:
+            response_text = "Error: Could not decode plant care data."
+        except Exception as e:
+            response_text = f"An unexpected error occurred: {e}"
+
+    elif intent=="weatherReq":
+        plant_list = parameters.get("plant")
+        if plant_list and isinstance(plant_list, list) and plant_list:
+            plant = plant_list[0]
+        else:
+            plant = "your plant"  # Default value if 'plant' is missing or empty
+        plant_lower = plant.lower()
+
+        try:
+            # Construct the path relative to the script's directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            file_path = os.path.join(script_dir, "plant_data.json")
+
+            with open(file_path, "r") as f:
+                plant_care_data = json.load(f)
+
+            if plant_lower in plant_care_data:
+                care_info = plant_care_data[plant_lower]
+                response_text = f"Here's some care advice for your {plant}:\n"
+                if "suitable_weather" in care_info:
+                    response_text += f"\nRegarding suitable weather, for a {plant}: {care_info['suitable_weather']}"
+                else:
+                    response_text += f"General weather considerations for plants: Most indoor plants thrive in temperatures between 65-75°F (18-24°C) and prefer moderate humidity. Different plant types have evolved to suit various climates, so their ideal temperature, light levels, and humidity needs can differ significantly. To understand the best weather for your {plant}, I recommend looking up its specific requirements."
+            else:
+                response_text = f"Sorry, I don't have weather specific care information for {plant} right now. I'm still learning and I'll get back to you soon."
 
         except FileNotFoundError:
             response_text = f"Error: Plant care data file not found at path: {file_path}"

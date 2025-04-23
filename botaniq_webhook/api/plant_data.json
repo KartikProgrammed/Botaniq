@@ -1,135 +1,1082 @@
 {
-    "rose": {
-      "light": "Full sunlight (6-8 hours daily)",
-      "water": "Water regularly...",
-      "soil": "Well-draining soil...",
-      "fertilizer": "Feed regularly...",
-      "vastu": "Generally considered auspicious, but placement (especially thorny varieties) can be important. Best in south or southwest."
-    },
-    "cactus": {
-      "light": "Bright, direct sunlight",
-      "water": "Water sparingly...",
-      "soil": "Well-draining cactus mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Generally not recommended indoors due to their thorns, which can represent negative energy. If kept, place in areas with negative energy you want to deflect, like a balcony facing a busy street."
-    },
-    "fern": {
-      "light": "Indirect light to shade",
-      "water": "Keep soil consistently moist...",
-      "soil": "Rich, well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Considered auspicious for bringing positivity and good luck indoors. Best placed in the north or east."
-    },
-    "snake plant": {
-      "light": "Tolerates low to bright indirect light.",
-      "water": "Water sparingly...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed a couple of times...",
-      "vastu": "Known for purifying air and attracting positive energy. Can be placed in various locations, but avoid the east."
-    },
-    "spider plant": {
-      "light": "Bright, indirect light...",
-      "water": "Water moderately...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Considered good for bringing peace and happiness. Can be placed in living areas or balconies."
-    },
-    "peace lily": {
-      "light": "Low to bright indirect light...",
-      "water": "Keep soil consistently moist...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Symbolizes peace and tranquility. Good for bedrooms and living areas, but avoid direct drafts."
-    },
-    "pothos": {
-      "light": "Low to bright indirect light...",
-      "water": "Water when the top inch is dry...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed occasionally...",
-      "vastu": "Considered good for attracting wealth and good luck. Can be placed near entrances but avoid corners."
-    },
-    "succulent (general)": {
-      "light": "Bright light...",
-      "water": "Water thoroughly but infrequently...",
-      "soil": "Well-draining succulent mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Some succulents like Jade plant are considered very auspicious for wealth. Thorny succulents (like some cacti) should be placed with caution."
-    },
-    "monstera deliciosa (swiss cheese plant)": {
-      "light": "Bright, indirect light...",
-      "water": "Water when the top inch or two are dry...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Represents good fortune and positive energy. Best placed in the south-east for prosperity."
-    },
-    "ZZ plant": {
-      "light": "Tolerates low to bright indirect light.",
-      "water": "Water sparingly...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed infrequently...",
-      "vastu": "Associated with prosperity and good luck. Can be placed in offices or living areas."
-    },
-    "aloe vera": {
-      "light": "Bright, indirect light...",
-      "water": "Water thoroughly but infrequently...",
-      "soil": "Well-draining succulent mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Considered auspicious for health and prosperity. Place in the north or east."
-    },
-    "calathea (prayer plant)": {
-      "light": "Low to bright indirect light...",
-      "water": "Keep soil consistently moist...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Its moving leaves are associated with positive vibrations. Good for living spaces."
-    },
-    "string of pearls": {
-      "light": "Bright, indirect light...",
-      "water": "Water sparingly...",
-      "soil": "Well-draining succulent mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Its trailing vines can symbolize the flow of good fortune. Place where its growth can be appreciated."
-    },
-    "fiddle leaf fig": {
-      "light": "Bright indirect light...",
-      "water": "Water when the top inch is dry...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed lightly...",
-      "vastu": "Can bring positive energy and growth. Ensure it's healthy and not placed in a way that obstructs movement."
-    },
-    "air plant (tillandsia)": {
-      "light": "Bright, indirect light...",
-      "water": "Soak every 1-2 weeks...",
-      "soil": "No soil needed...",
-      "fertilizer": "Use specialized air plant fertilizer sparingly.",
-      "vastu": "Can enhance positive energy due to their unique way of living. Place where air circulation is good."
-    },
-    "basil": {
-      "light": "Full sunlight...",
-      "water": "Water regularly...",
-      "soil": "Well-draining potting mix...",
-      "fertilizer": "Feed regularly...",
-      "vastu": "Considered very sacred and auspicious. Best placed in the north-east, east, or central courtyard."
-    },
-    "mint": {
-      "light": "Part to full sunlight.",
-      "water": "Keep soil consistently moist.",
-      "soil": "Well-draining potting mix.",
-      "fertilizer": "Feed occasionally.",
-      "vastu": "Represents prosperity and positive energy. Can be placed near entrances or windows."
-    },
-    "rosemary": {
-      "light": "Full sunlight...",
-      "water": "Water when top inch is dry...",
-      "soil": "Well-draining, slightly sandy...",
-      "fertilizer": "Feed sparingly...",
-      "vastu": "Known for its purifying properties and attracting positive energy. Can be placed in various sunny spots."
-    },
-    "orchid (phalaenopsis)": {
-      "light": "Bright, indirect light...",
-      "water": "Water thoroughly when potting mix is dry...",
-      "soil": "Special orchid mix...",
-      "fertilizer": "Use diluted orchid fertilizer...",
-      "vastu": "Symbolizes love, beauty, and harmony. Best placed in the south-west for relationships."
-    }
+  "rose": {
+    "light": "Full sunlight (6-8 hours daily)",
+    "water": "Water regularly...",
+    "soil": "Well-draining soil...",
+    "fertilizer": "Feed regularly...",
+    "vastu": "Generally considered auspicious, but placement (especially thorny varieties) can be important. Best in south or southwest.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "cactus": {
+    "light": "Bright, direct sunlight",
+    "water": "Water sparingly...",
+    "soil": "Well-draining cactus mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Generally not recommended indoors due to their thorns, which can represent negative energy. If kept, place in areas with negative energy you want to deflect, like a balcony facing a busy street.",
+    "suitable_weather": "Moderate"
+  },
+  "fern": {
+    "light": "Indirect light to shade",
+    "water": "Keep soil consistently moist...",
+    "soil": "Rich, well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Considered auspicious for bringing positivity and good luck indoors. Best placed in the north or east.",
+    "suitable_weather": "Moderate"
+  },
+  "snake plant": {
+    "light": "Tolerates low to bright indirect light.",
+    "water": "Water sparingly...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed a couple of times...",
+    "vastu": "Known for purifying air and attracting positive energy. Can be placed in various locations, but avoid the east.",
+    "suitable_weather": "Moderate"
+  },
+  "spider plant": {
+    "light": "Bright, indirect light...",
+    "water": "Water moderately...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Considered good for bringing peace and happiness. Can be placed in living areas or balconies.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "peace lily": {
+    "light": "Low to bright indirect light...",
+    "water": "Keep soil consistently moist...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Symbolizes peace and tranquility. Good for bedrooms and living areas, but avoid direct drafts.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "pothos": {
+    "light": "Low to bright indirect light...",
+    "water": "Water when the top inch is dry...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed occasionally...",
+    "vastu": "Considered good for attracting wealth and good luck. Can be placed near entrances but avoid corners.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "succulent (general)": {
+    "light": "Bright light...",
+    "water": "Water thoroughly but infrequently...",
+    "soil": "Well-draining succulent mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Some succulents like Jade plant are considered very auspicious for wealth. Thorny succulents (like some cacti) should be placed with caution.",
+    "suitable_weather": "Moderate"
+  },
+  "monstera deliciosa (swiss cheese plant)": {
+    "light": "Bright, indirect light...",
+    "water": "Water when the top inch or two are dry...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Represents good fortune and positive energy. Best placed in the south-east for prosperity.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "ZZ plant": {
+    "light": "Tolerates low to bright indirect light.",
+    "water": "Water sparingly...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed infrequently...",
+    "vastu": "Associated with prosperity and good luck. Can be placed in offices or living areas.",
+    "suitable_weather": "Moderate"
+  },
+  "aloe vera": {
+    "light": "Bright, indirect light...",
+    "water": "Water thoroughly but infrequently...",
+    "soil": "Well-draining succulent mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Considered auspicious for health and prosperity. Place in the north or east.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "calathea (prayer plant)": {
+    "light": "Low to bright indirect light...",
+    "water": "Keep soil consistently moist...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Its moving leaves are associated with positive vibrations. Good for living spaces.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "string of pearls": {
+    "light": "Bright, indirect light...",
+    "water": "Water sparingly...",
+    "soil": "Well-draining succulent mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Its trailing vines can symbolize the flow of good fortune. Place where its growth can be appreciated.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "fiddle leaf fig": {
+    "light": "Bright indirect light...",
+    "water": "Water when the top inch is dry...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed lightly...",
+    "vastu": "Can bring positive energy and growth. Ensure it's healthy and not placed in a way that obstructs movement.",
+    "suitable_weather": "Moderate"
+  },
+  "air plant (tillandsia)": {
+    "light": "Bright, indirect light...",
+    "water": "Soak every 1-2 weeks...",
+    "soil": "No soil needed...",
+    "fertilizer": "Use specialized air plant fertilizer sparingly.",
+    "vastu": "Can enhance positive energy due to their unique way of living. Place where air circulation is good.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "basil": {
+    "light": "Full sunlight...",
+    "water": "Water regularly...",
+    "soil": "Well-draining potting mix...",
+    "fertilizer": "Feed regularly...",
+    "vastu": "Considered very sacred and auspicious. Best placed in the north-east, east, or central courtyard.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "mint": {
+    "light": "Part to full sunlight.",
+    "water": "Keep soil consistently moist.",
+    "soil": "Well-draining potting mix.",
+    "fertilizer": "Feed occasionally.",
+    "vastu": "Represents prosperity and positive energy. Can be placed near entrances or windows.",
+    "suitable_weather": "Moderate"
+  },
+  "rosemary": {
+    "light": "Full sunlight...",
+    "water": "Water when top inch is dry...",
+    "soil": "Well-draining, slightly sandy...",
+    "fertilizer": "Feed sparingly...",
+    "vastu": "Known for its purifying properties and attracting positive energy. Can be placed in various sunny spots.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "orchid (phalaenopsis)": {
+    "light": "Bright, indirect light...",
+    "water": "Water thoroughly when potting mix is dry...",
+    "soil": "Special orchid mix...",
+    "fertilizer": "Use diluted orchid fertilizer...",
+    "vastu": "Symbolizes love, beauty, and harmony. Best placed in the south-west for relationships.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "money plant": {
+    "light": "Low to bright indirect light",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Considered very lucky for finances. Best placed in the southeast.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "areca palm": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil consistently moist",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly with a balanced fertilizer",
+    "vastu": "Brings peace and prosperity. Best in the east or southeast corners.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "rubber plant": {
+    "light": "Bright, indirect light",
+    "water": "Water when top soil is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Symbolizes wealth and abundance. Place in living rooms or offices.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "croton": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil evenly moist",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed every 2-4 weeks",
+    "vastu": "Enhances creative energy. Best for study areas or balconies.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "dracaena": {
+    "light": "Low to bright indirect light",
+    "water": "Water when top soil is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed every 4-6 weeks",
+    "vastu": "Brings calm and harmony. Place in bedrooms or living areas.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "philodendron": {
+    "light": "Bright, indirect light",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Encourages personal growth. Place in eastern zones.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "palm (general)": {
+    "light": "Bright, indirect light",
+    "water": "Water when the top inch feels dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during active growth",
+    "vastu": "Brings fresh energy and life. Best for hallways or corners.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "asparagus fern": {
+    "light": "Bright, indirect light to light shade",
+    "water": "Keep soil lightly moist",
+    "soil": "Well-draining, rich soil",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Symbol of resilience and positivity. Good for indoor corners.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "peperomia": {
+    "light": "Bright, indirect light",
+    "water": "Let soil dry between waterings",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly with diluted fertilizer",
+    "vastu": "Symbolizes steady growth. Suitable for desks and small spaces.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "fittonia (nerve plant)": {
+    "light": "Low to medium indirect light",
+    "water": "Keep soil consistently moist",
+    "soil": "Well-draining, peat-based soil",
+    "fertilizer": "Feed every 4 weeks in spring/summer",
+    "vastu": "Known for vitality. Good for study or meditation areas.",
+    "suitable_weather": "Moderate"
+  },
+  "polka dot plant": {
+    "light": "Bright, indirect light",
+    "water": "Water when top soil feels dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Adds playful, uplifting energy. Best in kid-friendly spaces.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "syngonium (arrowhead plant)": {
+    "light": "Low to medium light",
+    "water": "Keep soil lightly moist",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed every 4-6 weeks",
+    "vastu": "Promotes harmony and balance. Good for bedrooms or libraries.",
+    "suitable_weather": "Moderate"
+  },
+  "cast iron plant": {
+    "light": "Low light",
+    "water": "Let soil dry between waterings",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Represents strength and durability. Great for dark corners.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "parlor palm": {
+    "light": "Low to bright indirect light",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during spring/summer",
+    "vastu": "Adds elegance and calm. Best for living rooms or offices.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "nertera (coral moss)": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil moist, avoid waterlogging",
+    "soil": "Rich, well-draining mix",
+    "fertilizer": "Feed lightly during active growth",
+    "vastu": "Its bright berries symbolize prosperity. Good for entryways.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "chamaedorea palm": {
+    "light": "Bright, filtered light",
+    "water": "Water moderately",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Promotes a refreshing vibe. Best near workspaces or hallways.",
+    "suitable_weather": "Moderate"
+  },
+  "rattlesnake plant (calathea lancifolia)": {
+    "light": "Low to medium indirect light",
+    "water": "Keep soil evenly moist",
+    "soil": "Well-draining, rich mix",
+    "fertilizer": "Feed every 2-4 weeks",
+    "vastu": "Promotes peace and calm. Best for meditation or study zones.",
+    "suitable_weather": "Moderate"
+  },
+  "silver pothos (scindapsus pictus)": {
+    "light": "Low to bright indirect light",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Known for attracting wealth. Good for entrances or shelves.",
+    "suitable_weather": "Shaded, cool"
+  },
+  "heliconia": {
+    "light": "Full sun to partial shade",
+    "water": "Water frequently during growing season",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed with organic compost or balanced fertilizer",
+    "vastu": "Symbolizes bold growth. Best for gardens or large balconies.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lavender": {
+    "light": "Full sunlight",
+    "water": "Water when the soil is almost dry",
+    "soil": "Well-draining, slightly alkaline soil",
+    "fertilizer": "Feed sparingly with compost or slow-release fertilizer",
+    "vastu": "Known to promote calm and relaxation. Best placed in the north or northeast.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "chrysanthemum": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly to keep soil moist",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed during growing season with balanced fertilizer",
+    "vastu": "Symbolizes happiness and longevity. Place near entryways or in living spaces.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "geranium": {
+    "light": "Full sun to partial shade",
+    "water": "Allow top inch to dry between waterings",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed bi-weekly during blooming season",
+    "vastu": "Good for enhancing cheerfulness. Place in balconies or windowsills.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "marigold": {
+    "light": "Full sunlight",
+    "water": "Water regularly, especially in dry seasons",
+    "soil": "Well-draining garden soil",
+    "fertilizer": "Use compost or general-purpose fertilizer",
+    "vastu": "Highly auspicious. Ideal for main entrances or prayer rooms.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "jasmine": {
+    "light": "Full to partial sunlight",
+    "water": "Keep soil moist, not soggy",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed during the growing season",
+    "vastu": "Promotes tranquility and love. Best placed in the east or northeast.",
+    "suitable_weather": "Moderate"
+  },
+  "hibiscus": {
+    "light": "Full sunlight",
+    "water": "Water thoroughly when top inch is dry",
+    "soil": "Well-draining, slightly acidic soil",
+    "fertilizer": "Feed every two weeks during blooming",
+    "vastu": "Symbol of divine energy. Place near entrances or in temples.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "gardenia": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil consistently moist",
+    "soil": "Well-draining, acidic soil",
+    "fertilizer": "Feed with acid-loving plant fertilizer",
+    "vastu": "Attracts love and peace. Best in the east or southeast.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "daisy": {
+    "light": "Full sun",
+    "water": "Water regularly during active growth",
+    "soil": "Light, well-draining soil",
+    "fertilizer": "Apply a balanced fertilizer during blooming",
+    "vastu": "Symbol of purity and innocence. Ideal for gardens or windows.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "bougainvillea": {
+    "light": "Full sunlight",
+    "water": "Water sparingly after establishment",
+    "soil": "Well-draining sandy soil",
+    "fertilizer": "Feed during the blooming season",
+    "vastu": "Represents strength. Place on boundary walls or fences.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "anthurium": {
+    "light": "Bright, indirect light",
+    "water": "Water when top soil is dry",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Symbolizes hospitality and love. Good for living rooms or offices.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "begonia": {
+    "light": "Bright, indirect light",
+    "water": "Water when soil is dry to the touch",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed every 2 weeks in growing season",
+    "vastu": "Brings charm and prosperity. Place in east-facing rooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "coleus": {
+    "light": "Bright, indirect light or partial shade",
+    "water": "Keep soil consistently moist",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed lightly during growing season",
+    "vastu": "Colorful leaves enhance creativity. Great for workspaces.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "gerbera": {
+    "light": "Full sunlight",
+    "water": "Water regularly, avoid waterlogging",
+    "soil": "Well-draining, slightly acidic soil",
+    "fertilizer": "Use phosphorus-rich fertilizer",
+    "vastu": "Brings joy and freshness. Ideal for balconies and study areas.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "petunia": {
+    "light": "Full sunlight",
+    "water": "Water when top soil feels dry",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed weekly during blooming season",
+    "vastu": "Enhances beauty and harmony. Great for front yards or fences.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "impatiens": {
+    "light": "Partial to full shade",
+    "water": "Keep soil moist but not soggy",
+    "soil": "Well-draining, organic-rich soil",
+    "fertilizer": "Use a balanced liquid fertilizer",
+    "vastu": "Brings gentle vibes. Place in shaded corners or patios.",
+    "suitable_weather": "Moderate"
+  },
+  "zinnia": {
+    "light": "Full sunlight",
+    "water": "Water when top inch is dry",
+    "soil": "Well-draining, moderately fertile soil",
+    "fertilizer": "Use balanced fertilizer during growing season",
+    "vastu": "Associated with endurance. Place in sunny gardens or balconies.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "snapdragon": {
+    "light": "Full to partial sun",
+    "water": "Keep soil evenly moist",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed during active growth",
+    "vastu": "Adds vibrance and energy. Best in front gardens or borders.",
+    "suitable_weather": "Moderate"
+  },
+  "freesia": {
+    "light": "Bright, indirect sunlight",
+    "water": "Keep soil moist during blooming",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Use flower-boosting fertilizer",
+    "vastu": "Encourages positivity. Good for study rooms or bedrooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "tulip": {
+    "light": "Full sun",
+    "water": "Water moderately during growing season",
+    "soil": "Well-draining soil rich in organic matter",
+    "fertilizer": "Use bulb fertilizer at planting",
+    "vastu": "Symbol of love and luck. Place in decorative pots or near entryways.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lily (general)": {
+    "light": "Bright, indirect sunlight",
+    "water": "Water when top soil is dry",
+    "soil": "Well-draining, rich potting mix",
+    "fertilizer": "Feed during blooming season",
+    "vastu": "Represents purity and devotion. Ideal for prayer rooms or balconies.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "azalea": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil evenly moist",
+    "soil": "Acidic, well-draining soil",
+    "fertilizer": "Feed with acid-loving fertilizer during bloom",
+    "vastu": "Brings positivity and calm. Best placed in the north or northeast.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "camellia": {
+    "light": "Partial shade",
+    "water": "Water regularly, avoid waterlogging",
+    "soil": "Acidic, rich, well-draining soil",
+    "fertilizer": "Feed with acid-loving fertilizer before and after bloom",
+    "vastu": "Symbolizes love and devotion. Ideal for east-facing garden spots.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "garden iris": {
+    "light": "Full sun to partial shade",
+    "water": "Water during growth, allow to dry between waterings",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed in early spring with bulb fertilizer",
+    "vastu": "Encourages courage and strength. Best in the south or west.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "holly": {
+    "light": "Full sun",
+    "water": "Water regularly during establishment",
+    "soil": "Well-draining, slightly acidic soil",
+    "fertilizer": "Feed in spring with balanced fertilizer",
+    "vastu": "Protective plant. Best near entrances or boundaries.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lilac": {
+    "light": "Full sun",
+    "water": "Water regularly in dry periods",
+    "soil": "Well-draining, neutral to alkaline soil",
+    "fertilizer": "Feed after flowering with balanced fertilizer",
+    "vastu": "Promotes tranquility and happiness. Place in front gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "magnolia": {
+    "light": "Full sun to partial shade",
+    "water": "Keep soil moist, especially when young",
+    "soil": "Rich, well-draining, slightly acidic soil",
+    "fertilizer": "Feed in early spring with slow-release fertilizer",
+    "vastu": "Symbol of dignity and nobility. Best in south or east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "nasturtium": {
+    "light": "Full sun",
+    "water": "Water regularly; drought tolerant once established",
+    "soil": "Poor to average, well-draining soil",
+    "fertilizer": "Generally not required; too fertile soil reduces blooms",
+    "vastu": "Repels negativity. Good for window boxes or borders.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "oleander": {
+    "light": "Full sun",
+    "water": "Water regularly during growth",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly with balanced fertilizer",
+    "vastu": "Protects against negative energies. Plant near perimeters.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "peony": {
+    "light": "Full sun",
+    "water": "Water deeply during dry periods",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in early spring and after blooming",
+    "vastu": "Symbol of prosperity and honor. Best in east or southeast.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "rhododendron": {
+    "light": "Partial shade",
+    "water": "Keep soil consistently moist",
+    "soil": "Acidic, well-draining soil",
+    "fertilizer": "Feed with ericaceous fertilizer in spring",
+    "vastu": "Promotes community and harmony. Good in northeast.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "sunflower": {
+    "light": "Full sun",
+    "water": "Water regularly, especially during bloom",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed with high-potassium fertilizer",
+    "vastu": "Brings warmth and positivity. Best in south.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "wisteria": {
+    "light": "Full sun",
+    "water": "Water regularly during establishment",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed annually with balanced fertilizer",
+    "vastu": "Symbol of devotion and longevity. Good on pergolas in east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "yucca": {
+    "light": "Full sun",
+    "water": "Water sparingly once established",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Brings strength and protection. Place near entrances.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "celandine": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Encourages healing energy. Ideal near healing spaces.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "dahlia": {
+    "light": "Full sun",
+    "water": "Water consistently, avoid waterlogging",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed monthly with high-potassium fertilizer",
+    "vastu": "Symbol of elegance and dignity. Place in south.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "echinacea": {
+    "light": "Full sun",
+    "water": "Water during drought",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Promotes wellness. Good near medicinal herb gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "foxglove": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, rich soil",
+    "fertilizer": "Feed in spring with balanced fertilizer",
+    "vastu": "Protects household. Best near south or west.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "gladiolus": {
+    "light": "Full sun",
+    "water": "Water deeply during growth",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Feed at planting and mid-season",
+    "vastu": "Symbol of remembrance. Good in memorial gardens east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "heather": {
+    "light": "Full sun to partial shade",
+    "water": "Keep soil moist",
+    "soil": "Acidic, well-draining soil",
+    "fertilizer": "Feed with ericaceous fertilizer",
+    "vastu": "Brings calm energy. Ideal for northeast corners.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "iris (woodland)": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed with bulb fertilizer in spring",
+    "vastu": "Encourages introspection. Good in meditation gardens.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "jonquil": {
+    "light": "Full sun to partial shade",
+    "water": "Water during growth, let dry after flowering",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed at planting",
+    "vastu": "Symbol of new beginnings. Place in east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "king protea": {
+    "light": "Full sun",
+    "water": "Water sparingly once established",
+    "soil": "Acidic, well-draining soil",
+    "fertilizer": "Feed with low-phosphorus fertilizer",
+    "vastu": "Represents courage. Best in south or southeast.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lupine": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining, slightly acidic soil",
+    "fertilizer": "Feed with phosphorus-rich fertilizer",
+    "vastu": "Promotes wisdom. Good in educational spaces.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "mallow": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Encourages creativity. Great for art studios.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "narcissus": {
+    "light": "Full sun to partial shade",
+    "water": "Water during growth, dry after bloom",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed at planting",
+    "vastu": "Symbol of renewal. Place in east or northeast.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "ocean spray": {
+    "light": "Full sun",
+    "water": "Water during dry spells",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed in spring with balanced fertilizer",
+    "vastu": "Brings adaptability. Good near water features.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "pearlwort": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Symbolizes purity. Ideal near water bowls.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "queen anne's lace": {
+    "light": "Full sun to partial shade",
+    "water": "Water during drought",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Brings subtle elegance. Good in formal gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "red hot poker": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Feed with phosphorus-rich fertilizer",
+    "vastu": "Symbol of vitality. Best in south gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "scarlet sage": {
+    "light": "Full sun",
+    "water": "Water during dry periods",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Attracts positive energy. Place near entrances.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "tithonia": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Symbolizes adventure. Good for patios.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "umbellularia": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in spring",
+    "vastu": "Brings protection. Ideal near doors.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "vinca": {
+    "light": "Full sun to partial shade",
+    "water": "Water sparingly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Promotes calm. Great for bedside tables.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "waxflower": {
+    "light": "Full sun to partial shade",
+    "water": "Water during drought",
+    "soil": "Well-draining, sandy soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Symbol of lasting love. Place in living areas.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "yellow archangel": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Encourages balance. Good for north.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "zebra plant (aphelandra)": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil moist",
+    "soil": "Well-draining potting mix",
+    "fertilizer": "Feed every 2 weeks during growth",
+    "vastu": "Brings vibrancy. Ideal for living rooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "agapanthus": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly, allow top soil to dry slightly between waterings",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed with balanced fertilizer in spring",
+    "vastu": "Symbolizes love and harmony. Best in the east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "astilbe": {
+    "light": "Partial shade",
+    "water": "Keep soil consistently moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed with compost in spring",
+    "vastu": "Promotes tranquility. Good for meditation corners.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "begonia corallina": {
+    "light": "Bright, indirect light",
+    "water": "Water when top soil is dry",
+    "soil": "Well-draining, peat-based mix",
+    "fertilizer": "Feed monthly during growing season",
+    "vastu": "Enhances creativity. Ideal for study areas.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "bluebell": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, humus-rich soil",
+    "fertilizer": "Feed in autumn with bulb fertilizer",
+    "vastu": "Symbol of gratitude. Best in woodland gardens.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "caladium": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil evenly moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed every 4 weeks during growth",
+    "vastu": "Promotes emotional balance. Good for bedrooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "camassia": {
+    "light": "Full sun to partial shade",
+    "water": "Water during growth, let dry after bloom",
+    "soil": "Moist, well-draining soil",
+    "fertilizer": "Feed at planting",
+    "vastu": "Encourages prosperity. Place in east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "clematis": {
+    "light": "Full sun for blooms, roots in shade",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed in spring and mid-summer",
+    "vastu": "Symbol of ingenuity. Good on trellises in west.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "columbine": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, loamy soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Encourages wisdom. Ideal for study rooms.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "cyclamen": {
+    "light": "Bright, indirect light",
+    "water": "Water when soil is dry, avoid crown rot",
+    "soil": "Well-draining, gritty mix",
+    "fertilizer": "Feed every 2 weeks during bloom",
+    "vastu": "Symbolizes love and empathy. Place in living rooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "daphne": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Attracts positivity. Best in northeast.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "delphinium": {
+    "light": "Full sun",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed monthly during growth",
+    "vastu": "Symbol of joy. Good for south-facing beds.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "echinops": {
+    "light": "Full sun",
+    "water": "Water sparingly once established",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Promotes resilience. Ideal in rock gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "euonymus": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed in spring",
+    "vastu": "Symbol of protection. Place near entrances.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "fuchsia": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed every 2 weeks during bloom",
+    "vastu": "Encourages love and harmony. Good for balconies.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "gaura": {
+    "light": "Full sun",
+    "water": "Water regularly, drought tolerant once established",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Symbol of strength. Best in south.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "helleborus": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in autumn",
+    "vastu": "Represents serenity. Good near entrances.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "hellebore": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in autumn",
+    "vastu": "Symbolizes peace. Ideal for north-facing spots.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "heuchera": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, organic-rich soil",
+    "fertilizer": "Feed in spring",
+    "vastu": "Promotes creativity. Good for workspaces.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "hibiscus rosa-sinensis": {
+    "light": "Full sun",
+    "water": "Water when top soil is dry",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed every two weeks during bloom",
+    "vastu": "Symbol of beauty. Place near entrances.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "hollyhock": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Symbol of ambition. Good for cottage gardens.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "ipomoea": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed sparingly",
+    "vastu": "Symbol of connection. Ideal for trellises.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "iris germanica": {
+    "light": "Full sun",
+    "water": "Water during dry spells",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed at planting and post-bloom",
+    "vastu": "Encourages reflection. Good in north.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "japanese maple": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in spring",
+    "vastu": "Symbol of balance. Place in living areas.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "kalmia": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Acidic, well-draining soil",
+    "fertilizer": "Feed with ericaceous fertilizer",
+    "vastu": "Brings harmony. Good for northeast.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "kniphofia": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly in spring",
+    "vastu": "Symbol of energy. Best in south.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lavatera": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Encourages clarity. Good for patios.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "leucanthemum": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Symbol of purity. Ideal for north.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "liriope": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Brings calm. Good for borders.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "lobelia": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed every 2 weeks during bloom",
+    "vastu": "Symbol of loyalty. Good for window boxes.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "lychnis": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Encourages harmony. Ideal for garden edges.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "mallow rosa": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Promotes love. Good near seating areas.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "medinilla": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil moist but not soggy",
+    "soil": "Well-draining, peat-based mix",
+    "fertilizer": "Feed monthly during growth",
+    "vastu": "Symbol of luxury. Ideal for living rooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "montbretia": {
+    "light": "Full sun to partial shade",
+    "water": "Water during growth, allow to dry after bloom",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed at planting",
+    "vastu": "Symbol of prosperity. Place in east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "morina": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Encourages confidence. Good in study areas.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "nodding onion": {
+    "light": "Full sun",
+    "water": "Water sparingly once established",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Symbol of protection. Place near doors.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "osteospermum": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed bi-weekly during bloom",
+    "vastu": "Symbol of optimism. Ideal for east.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "oxalis": {
+    "light": "Bright, indirect light",
+    "water": "Keep soil moist",
+    "soil": "Well-draining, loamy soil",
+    "fertilizer": "Feed every 4 weeks",
+    "vastu": "Brings joy. Good for living rooms.",
+    "suitable_weather": "Partly sunny, moderate temperatures"
+  },
+  "papaver": {
+    "light": "Full sun",
+    "water": "Water during growth, drought tolerant",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed lightly",
+    "vastu": "Symbolizes peace. Best in north.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "peony fern": {
+    "light": "Partial shade",
+    "water": "Keep soil moist",
+    "soil": "Rich, well-draining soil",
+    "fertilizer": "Feed in spring",
+    "vastu": "Brings calm. Good for indoor gardens.",
+    "suitable_weather": "Partial sun, mild"
+  },
+  "phlox": {
+    "light": "Full sun to partial shade",
+    "water": "Water regularly",
+    "soil": "Well-draining, fertile soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Symbol of unity. Ideal for group plantings.",
+    "suitable_weather": "Sunny, warm"
+  },
+  "plumbago": {
+    "light": "Full sun",
+    "water": "Water regularly",
+    "soil": "Well-draining soil",
+    "fertilizer": "Feed monthly",
+    "vastu": "Encourages clarity. Good for study desks.",
+    "suitable_weather": "Sunny, warm"
   }
+}
