@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 import json
 
@@ -18,7 +19,11 @@ def webhook():
         plant_lower = plant.lower()
 
         try:
-            with open("plant_data.json", "r") as f:
+            # Construct the path relative to the script's directory
+            script_dir = os.path.dirname(os.path.abspath(__file__))
+            file_path = os.path.join(script_dir, "plant_data.json")
+
+            with open(file_path, "r") as f:
                 plant_care_data = json.load(f)
 
             if plant_lower in plant_care_data:
@@ -35,9 +40,11 @@ def webhook():
                 response_text = f"Sorry, I don't have specific care information for {plant} right now. General care usually involves providing appropriate light and watering when the topsoil is dry. You might also want to research Vastu principles related to this plant."
 
         except FileNotFoundError:
-            response_text = "Error: Plant care data file not found."
+            response_text = f"Error: Plant care data file not found at path: {file_path}"
         except json.JSONDecodeError:
             response_text = "Error: Could not decode plant care data."
+        except Exception as e:
+            response_text = f"An unexpected error occurred: {e}"
 
     else:
         response_text = "I'm still learning how to help with that!"
