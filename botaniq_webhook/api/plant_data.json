@@ -1,0 +1,135 @@
+{
+    "rose": {
+      "light": "Full sunlight (6-8 hours daily)",
+      "water": "Water regularly...",
+      "soil": "Well-draining soil...",
+      "fertilizer": "Feed regularly...",
+      "vastu": "Generally considered auspicious, but placement (especially thorny varieties) can be important. Best in south or southwest."
+    },
+    "cactus": {
+      "light": "Bright, direct sunlight",
+      "water": "Water sparingly...",
+      "soil": "Well-draining cactus mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Generally not recommended indoors due to their thorns, which can represent negative energy. If kept, place in areas with negative energy you want to deflect, like a balcony facing a busy street."
+    },
+    "fern": {
+      "light": "Indirect light to shade",
+      "water": "Keep soil consistently moist...",
+      "soil": "Rich, well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Considered auspicious for bringing positivity and good luck indoors. Best placed in the north or east."
+    },
+    "snake plant": {
+      "light": "Tolerates low to bright indirect light.",
+      "water": "Water sparingly...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed a couple of times...",
+      "vastu": "Known for purifying air and attracting positive energy. Can be placed in various locations, but avoid the east."
+    },
+    "spider plant": {
+      "light": "Bright, indirect light...",
+      "water": "Water moderately...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Considered good for bringing peace and happiness. Can be placed in living areas or balconies."
+    },
+    "peace lily": {
+      "light": "Low to bright indirect light...",
+      "water": "Keep soil consistently moist...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Symbolizes peace and tranquility. Good for bedrooms and living areas, but avoid direct drafts."
+    },
+    "pothos": {
+      "light": "Low to bright indirect light...",
+      "water": "Water when the top inch is dry...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed occasionally...",
+      "vastu": "Considered good for attracting wealth and good luck. Can be placed near entrances but avoid corners."
+    },
+    "succulent (general)": {
+      "light": "Bright light...",
+      "water": "Water thoroughly but infrequently...",
+      "soil": "Well-draining succulent mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Some succulents like Jade plant are considered very auspicious for wealth. Thorny succulents (like some cacti) should be placed with caution."
+    },
+    "monstera deliciosa (swiss cheese plant)": {
+      "light": "Bright, indirect light...",
+      "water": "Water when the top inch or two are dry...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Represents good fortune and positive energy. Best placed in the south-east for prosperity."
+    },
+    "ZZ plant": {
+      "light": "Tolerates low to bright indirect light.",
+      "water": "Water sparingly...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed infrequently...",
+      "vastu": "Associated with prosperity and good luck. Can be placed in offices or living areas."
+    },
+    "aloe vera": {
+      "light": "Bright, indirect light...",
+      "water": "Water thoroughly but infrequently...",
+      "soil": "Well-draining succulent mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Considered auspicious for health and prosperity. Place in the north or east."
+    },
+    "calathea (prayer plant)": {
+      "light": "Low to bright indirect light...",
+      "water": "Keep soil consistently moist...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Its moving leaves are associated with positive vibrations. Good for living spaces."
+    },
+    "string of pearls": {
+      "light": "Bright, indirect light...",
+      "water": "Water sparingly...",
+      "soil": "Well-draining succulent mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Its trailing vines can symbolize the flow of good fortune. Place where its growth can be appreciated."
+    },
+    "fiddle leaf fig": {
+      "light": "Bright indirect light...",
+      "water": "Water when the top inch is dry...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed lightly...",
+      "vastu": "Can bring positive energy and growth. Ensure it's healthy and not placed in a way that obstructs movement."
+    },
+    "air plant (tillandsia)": {
+      "light": "Bright, indirect light...",
+      "water": "Soak every 1-2 weeks...",
+      "soil": "No soil needed...",
+      "fertilizer": "Use specialized air plant fertilizer sparingly.",
+      "vastu": "Can enhance positive energy due to their unique way of living. Place where air circulation is good."
+    },
+    "basil": {
+      "light": "Full sunlight...",
+      "water": "Water regularly...",
+      "soil": "Well-draining potting mix...",
+      "fertilizer": "Feed regularly...",
+      "vastu": "Considered very sacred and auspicious. Best placed in the north-east, east, or central courtyard."
+    },
+    "mint": {
+      "light": "Part to full sunlight.",
+      "water": "Keep soil consistently moist.",
+      "soil": "Well-draining potting mix.",
+      "fertilizer": "Feed occasionally.",
+      "vastu": "Represents prosperity and positive energy. Can be placed near entrances or windows."
+    },
+    "rosemary": {
+      "light": "Full sunlight...",
+      "water": "Water when top inch is dry...",
+      "soil": "Well-draining, slightly sandy...",
+      "fertilizer": "Feed sparingly...",
+      "vastu": "Known for its purifying properties and attracting positive energy. Can be placed in various sunny spots."
+    },
+    "orchid (phalaenopsis)": {
+      "light": "Bright, indirect light...",
+      "water": "Water thoroughly when potting mix is dry...",
+      "soil": "Special orchid mix...",
+      "fertilizer": "Use diluted orchid fertilizer...",
+      "vastu": "Symbolizes love, beauty, and harmony. Best placed in the south-west for relationships."
+    }
+  }
