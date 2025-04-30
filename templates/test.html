@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PlantNet API Tester</title>
+</head>
+<body>
+  <h1>Identify Plant (Botaniq)</h1>
+  <form id="plantForm" enctype="multipart/form-data">
+    <label>Select Image(s):</label><br>
+    <input type="file" name="images" multiple required><br><br>
+
+    <label>Enter corresponding organs (comma-separated, e.g., leaf,flower):</label><br>
+    <input type="text" id="organs" name="organs" placeholder="leaf,flower" required><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <h3>Response:</h3>
+  <pre id="responseBox"></pre>
+
+  <script>
+    const form = document.getElementById('plantForm');
+    const responseBox = document.getElementById('responseBox');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const formData = new FormData();
+      const imageInput = form.querySelector('input[name="images"]');
+      const organInput = document.getElementById('organs').value.split(',');
+
+      if (imageInput.files.length !== organInput.length) {
+        alert("Number of organs must match number of images.");
+        return;
+      }
+
+      for (let i = 0; i < imageInput.files.length; i++) {
+        formData.append('images', imageInput.files[i]);
+        formData.append('organs', organInput[i].trim());
+      }
+
+      try {
+        const response = await fetch('/identify-plant', {
+          method: 'POST',
+          body: formData
+        });
+
+        const data = await response.json();
+        responseBox.textContent = JSON.stringify(data, null, 2);
+      } catch (error) {
+        responseBox.textContent = `Error: ${error.message}`;
+      }
+    });
+  </script>
+</body>
+</html>
